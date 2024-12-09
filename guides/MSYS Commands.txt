@@ -1,0 +1,3 @@
+qmk compile -kb keebio/iris/rev8 -km bgreenawalt
+
+qmk flash -kb keebio/iris/rev8 -km bgreenawalt
