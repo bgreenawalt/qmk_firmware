@@ -1,3 +1,9 @@
-qmk compile -kb keebio/iris/rev8 -km bgreenawalt
+Flashing the Iris:
 
+qmk compile -kb keebio/iris/rev8 -km bgreenawalt
 qmk flash -kb keebio/iris/rev8 -km bgreenawalt
+
+Flashing the Planck:
+
+qmk compile -kb planck/rev7 -km bgreenawalt
+qmk flash -kb planck/rev7 -km bgreenawalt

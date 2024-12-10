@@ -49,4 +49,5 @@
 // #define ENCODER_MAP_KEY_DELAY 10
 // #define ENCODER_RESOLUTION 4
 
-#define HOLD_ON_OTHER_KEY_PRESS
+// Used to make the Backspace/Shift Toggle Key timing tighter
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY

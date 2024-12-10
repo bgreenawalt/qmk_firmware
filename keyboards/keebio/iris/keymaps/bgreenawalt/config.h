@@ -17,4 +17,5 @@
 #define I2C1_SDA_PIN GP10
 #define I2C1_SCL_PIN GP11
 
-#define HOLD_ON_OTHER_KEY_PRESS
+// Used to make the Backspace/Shift Toggle Key timing tighter
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY

@@ -154,3 +154,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 )
 
 };
+
+// Used to make the Backspace/Shift Toggle Key timing tighter
+// Case: Immediately select the hold action when another key is pressed.
+// Default: Do not select the hold action when another key is pressed.
+
+bool get_hold_on_other_key_press(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LSFT_T(KC_BSPC):
+            return true;
+        default:
+            return false;
+    }
+}
